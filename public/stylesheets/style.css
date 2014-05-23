@@ -1,0 +1,29 @@
+body {
+  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+.main-hero {
+	font-size:3em;
+	font-weight:bold;
+}
+
+.thin-hero {
+	font-weight:200;
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.home-tile img {
+		width:100%;
+	}
+}
+
+/*helpers */
+.center {
+	text-align:center;
+}
