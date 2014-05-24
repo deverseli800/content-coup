@@ -19,7 +19,7 @@ $(document).ready( function() {
 	var windowHeight = $(window).height();
 	var landingHeight = $('.landing-page').height();
 
-	$('.hero-text').css('margin-top', -landingHeight/2);
+	//$('.hero-text').css('margin-top', -landingHeight/2);
 	$('.landing-page').css('height', windowHeight);
 	$('.q-and-a').css('height', windowHeight);
 	$('.image-back').css('height', windowHeight);

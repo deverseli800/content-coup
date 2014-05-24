@@ -9,6 +9,10 @@ body {
 	font-family:'lobster two';
 }
 
+.hero-text {
+	margin-top:10%;
+}
+
 .container-fluid {
 	padding-left:0;
 	padding-right:0;
@@ -39,6 +43,7 @@ body {
 
 .landing-page {
 	background-color:rgba(63,68,81,0.9);
+	padding-top:0;
 }
 
 .lead {
