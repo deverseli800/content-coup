@@ -30,6 +30,14 @@ a {
 	/* font-family:"source sans pro";*/
 }
 
+.nav-links {
+	position: absolute;
+	bottom:0;
+	float:left;
+	margin-left:95%;
+	width:130px;
+}
+
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
 	.home-tile img {
