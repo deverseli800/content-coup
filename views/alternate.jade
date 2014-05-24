@@ -2,7 +2,10 @@ extends layout
 
 block content
   link(rel='stylesheet', href='/stylesheets/alternate.css')
-  div.container
+  div.back-layer
+    div.image-back
+    div.white-back
+  div.container-fluid
     div.col-md-12.landing-page.alternate
       div.row.hero-text
         div.col-md-3
@@ -29,7 +32,7 @@ block content
             div.form-group 
               input.form-control(type="text", placeholder="link (i.e. reel, personal website, linkedin)") 
             button.btn.btn-success(type="button") GO
-      div.nav-links
+      div.nav-links.hidden
         ul.list-unstyled.list-inline
           li 
             a(href="#faq") FAQ

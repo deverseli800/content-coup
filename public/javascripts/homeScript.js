@@ -21,4 +21,6 @@ $(document).ready( function() {
 
 	$('.hero-text').css('margin-top', -landingHeight/2);
 	$('.landing-page').css('height', windowHeight);
+
+	$('.image-back').css('height', windowHeight);
 })

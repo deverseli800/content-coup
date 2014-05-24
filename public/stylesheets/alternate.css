@@ -1,0 +1,39 @@
+/*alternate page styles */
+
+body {
+	color:#f7f7f7;
+}
+
+.container-fluid {
+	padding-left:0;
+	padding-right:0;
+}
+
+.back-layer {
+	position:fixed;
+	z-index:0;
+	height:100%;
+	width:100%;
+}
+
+.image-back {
+	background-image:url('/images/commercial-set.jpg');
+	width:100%;
+	float:left;
+	height:400px;
+	background-size:cover;
+	background-position:center;
+	opacity:1;
+}
+	
+.q-and-a {
+	z-index:10;
+	background-color:white;
+	color:#333;
+}
+
+.landing-page {
+	background-color:rgba(63,68,81,0.9);
+}
+
+
