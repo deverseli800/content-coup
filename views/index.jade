@@ -1,8 +1,8 @@
 extends layout
 
 block content
-  div.container-fluid
-    div.col-md-12
+  div.container
+    div.col-md-12.landing-page
       div.row.hero-text
         div.col-md-3
         div.col-md-6
@@ -12,15 +12,22 @@ block content
             | creators 
         div.col-md-6
       div.row.landing-body 
+        br
+        br
         div.col-md-1
         div.col-md-5
           p Search and bid on projects for the biggest brands and biggest agencies.
             | Real work. Real opportunities. We are launching soon, apply for an invitiation here.
             | Membership will only be open to those who have successful work experience 
             | within the industry, so please include  a link to your work. 
-        div.col-md-5
-          input.input-lg(type="text", placeholder="email address") 
-          input.input-lg(type="text", placeholder="link (i.e. reel, personal website, linkedin)") 
+        div.col-md-1
+        div.col-md-4
+          form(role='form')
+            div.form-group
+              input.form-control(type="text", placeholder="email address")
+            div.form-group 
+              input.form-control(type="text", placeholder="link (i.e. reel, personal website, linkedin)") 
+            button.btn.btn-success(type="button") GO
     div.col-md-12.q-and-a
       div.row.question.center
         div.col-md-2

@@ -1,12 +1,19 @@
 body {
-  font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 18px "source sans pro", Helvetica, Arial, sans-serif;
+  line-height:1.5;
+  background: rgb(255,255,255); 
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* Chrome10+,Safari5.1+ */
 }
 
 a {
   color: #00B7FF;
 }
 
-
+.landing-page {
+	padding-top:30%;
+}
 .main-hero {
 	font-size:3em;
 	font-weight:bold;
@@ -14,6 +21,13 @@ a {
 
 .thin-hero {
 	font-weight:200;
+}
+
+.q-and-a {
+}
+
+.answer {
+	/* font-family:"source sans pro";*/
 }
 
 /* Large devices (large desktops, 1200px and up) */
