@@ -6,3 +6,7 @@
 exports.index = function(req, res){
   res.render('index', { title: 'Express' });
 };
+
+exports.alternate = function(req, res){
+  res.render('alternate', { title: 'Alternate' });
+};
