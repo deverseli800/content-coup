@@ -53,3 +53,46 @@ a {
 .center {
 	text-align:center;
 }
+
+/*my beta list */
+#MyBetaList {
+	background-color:transparent;
+}
+
+.LR-box-devices {
+	display:none;
+}
+
+
+input[type="submit"] .LR-sign-up-submit {
+	cursor: pointer;
+	z-index: 2;
+	right: 0;
+	top: 0;
+	border: none;
+	color: #ffffff;
+	padding: 9px 12px !important;
+	text-shadow: 0 0px 0 rgba(0, 0, 0, 0.25);
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0 0, 0 1%, from(#55BA3F), to(#168B47));
+	background-image: -webkit-linear-gradient(top, #55BA3F, #168B47);
+	background-image: -o-linear-gradient(top, #55BA3F, #168B47);
+	background-image: linear-gradient(to bottom, #55BA3F, #168B47);
+	background-image: -moz-linear-gradient(top, #55BA3F, #168B47);
+	background-repeat: repeat-x;
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 15px;
+	float: left;
+	padding: 10px 5%;
+	text-align: center;
+	max-height: 38px;
+	line-height: 18px;
+	width: 15%;
+	padding: 0px;
+	min-width: 48px;
+	border-right: 1px solid red;
+	border-top: 1px solid green;
+	border-bottom: 1px solid #000;
+}
