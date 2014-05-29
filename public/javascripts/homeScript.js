@@ -23,4 +23,6 @@ $(document).ready( function() {
 	$('.landing-page').css('min-height', windowHeight);
 	$('.q-and-a').css('min-height', windowHeight);
 	$('.image-back').css('height', windowHeight);
+	$('.color-back').css('height', windowHeight);
+
 })

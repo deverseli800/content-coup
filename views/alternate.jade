@@ -5,45 +5,44 @@ block content
   link(href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet' ,type='text/css')
   link(href='http://fonts.googleapis.com/css?family=Lobster+Two:400,700,700italic' rel='stylesheet' type='text/css')
   div.back-layer
+    div.color-back
     div.image-back
-    div.white-back
   div.container-fluid
-    div.col-md-12.landing-page.alternate
-      div.row.hero-text
-        div.col-md-4
-        div.col-md-4
-          h1.center.main-hero content
-            span.thin-hero
-              | coup
-          h1.lead A simpler, more direct approach to connecting the biggest brands with the best content 
-            | creators.
-        div.col-md-4
-      div.row.landing-body 
-        br
-        br
-        div.col-lg-5
-        div.col-lg-2
-          <!-- Begin LaunchRock Widget -->
-          div(id="lr-widget" rel="CE49GBNX")
-            script(type="text/javascript" src="//ignition.launchrock.com/ignition-current.min.js")
-          <!-- End LaunchRock Widget -->
-        div.col-lg-2.hidden
-          form(role='form')
-            div.form-group
-              input.form-control(type="text", placeholder="email address")
-            div.form-group 
-              input.form-control(type="text", placeholder="link (i.e. reel, personal website, linkedin)") 
-              p.help-block Membership will only be open to those who have 
-                | successful work experience within the industry, so please 
-                | include a link to your work.
-            button.btn.btn-block.btn-success.btn-lg(type="button") INVITE ME
-        div.col-lg-5
-      div.nav-links
-        ul.list-unstyled.list-inline
-          li 
-            a(href="#faq") FAQ
-          li 
-            a(href="#") Contact
+    div.container
+      div.col-md-12.landing-page.alternate
+        div.row.hero-text
+          div.col-md-2
+          div.col-md-8
+            h1.center.main-hero content
+              span.thin-hero
+                | coup
+            h1.lead.center A simpler, more direct approach to connecting the biggest brands with the best content 
+              | creators. Sign up now. 
+          div.col-md-2
+        div.row.landing-body 
+          div.col-lg-3
+          div.col-lg-6
+            <!-- Begin LaunchRock Widget -->
+            div(id="lr-widget" rel="CE49GBNX")
+              script(type="text/javascript" src="//ignition.launchrock.com/ignition-current.min.js")
+            <!-- End LaunchRock Widget -->
+          div.col-lg-2.hidden
+            form(role='form')
+              div.form-group
+                input.form-control(type="text", placeholder="email address")
+              div.form-group 
+                input.form-control(type="text", placeholder="link (i.e. reel, personal website, linkedin)") 
+                p.help-block Membership will only be open to those who have 
+                  | successful work experience within the industry, so please 
+                  | include a link to your work.
+              button.btn.btn-block.btn-success.btn-lg(type="button") INVITE ME
+          div.col-lg-3
+        div.nav-links
+          ul.list-unstyled.list-inline
+            li 
+              a(href="#faq") FAQ
+            li 
+              a(href="#") Contact
     div.col-md-12.q-and-a#faq
       div.row
         div.col-3.offset-6

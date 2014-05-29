@@ -63,7 +63,27 @@ a {
 	display:none;
 }
 
+.LR-site-incentive {
+	font-size:18px;
+	font-weight:200;
+	font-family:"source sans pro";
+}
 
+.LR-share-email-inner {
+	width:100%;
+}
+
+.LR-site-share-inner {
+	width:100%;
+}
+
+.input.LR-share-link {
+	float:left;
+}
+
+.LR-site-divider {
+	display:none;
+}
 input[type="submit"] .LR-sign-up-submit {
 	cursor: pointer;
 	z-index: 2;
@@ -95,4 +115,8 @@ input[type="submit"] .LR-sign-up-submit {
 	border-right: 1px solid red;
 	border-top: 1px solid green;
 	border-bottom: 1px solid #000;
+}
+
+.form-inline .form-control {
+	width:200px;
 }
