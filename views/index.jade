@@ -1,63 +1,84 @@
 extends layout
 
 block content
-  div.container
-    div.col-md-12.landing-page
-      div.row.hero-text
-        div.col-md-3
-        div.col-md-6
-          h1.center.main-hero CONTENT
-            span.thin-hero coup
-          h1.lead A simpler, more direct approach to connecting brands with content 
-            | creators 
-        div.col-md-6
-      div.row.landing-body 
-        br
-        br
-        div.col-md-1
-        div.col-md-5
-          p Search and bid on projects for the biggest brands and biggest agencies.
-            | Real work. Real opportunities. We are launching soon, apply for an invitiation here.
-            | Membership will only be open to those who have successful work experience 
-            | within the industry, so please include  a link to your work. 
-        div.col-md-1
-        div.col-md-4
-          form(role='form')
-            div.form-group
-              input.form-control(type="text", placeholder="email address")
-            div.form-group 
-              input.form-control(type="text", placeholder="link (i.e. reel, personal website, linkedin)") 
-            button.btn.btn-success(type="button") GO
-      div.nav-links
-        ul.list-unstyled.list-inline
-          li 
-            a(href="#faq") FAQ
-          li 
-            a(href="#") Contact
-    div.col-md-12.q-and-a#faq
+  link(rel='stylesheet', href='/stylesheets/alternate.css')
+  link(href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet' ,type='text/css')
+  link(href='http://fonts.googleapis.com/css?family=Lobster+Two:400,700,700italic' rel='stylesheet' type='text/css')
+  div.back-layer
+    div.color-back
+    div.image-back
+  div.container-fluid
+    div.container
+      div.col-sm-12.landing-page.alternate
+        div.row.hero-text
+          div.col-sm-2
+          div.col-sm-8
+            h1.center.main-hero content
+              span.thin-hero
+                | coup
+            h1.lead.center A simpler, more direct approach to connecting the biggest brands with the best content 
+              | creators. Sign up now. 
+          div.col-sm-2
+        div.row.landing-body 
+          div.col-lg-3
+          div.col-lg-6
+            <!-- Begin LaunchRock Widget -->
+            div(id="lr-widget" rel="CE49GBNX")
+              script(type="text/javascript" src="//ignition.launchrock.com/ignition-current.min.js")
+            <!-- End LaunchRock Widget -->
+          div.col-lg-2.hidden
+            form(role='form')
+              div.form-group
+                input.form-control(type="text", placeholder="email address")
+              div.form-group 
+                input.form-control(type="text", placeholder="link (i.e. reel, personal website, linkedin)") 
+                p.help-block Membership will only be open to those who have 
+                  | successful work experience within the industry, so please 
+                  | include a link to your work.
+              button.btn.btn-block.btn-success.btn-lg(type="button") INVITE ME
+          div.col-lg-3
+        div.nav-links
+          ul.list-unstyled.list-inline
+            li 
+              a(href="#faq") FAQ
+            li 
+              a(href="#") Contact
+    div.col-sm-12.q-and-a#faq
+      div.row
+        div.col-3.offset-6
+          h1.center Frequently Asked Questions
       div.row.question.center
-        div.col-md-2
-        div.col-md-8
+        div.col-sm-2.col-lg-3
+        div.col-sm-8.col-lg-6
+          h3.question How does it work?
+          p.answer Search and bid on projects for the biggest brands and biggest agencies.
+            | Real work. Real opportunities. We are launching soon make sure to apply for an invitiation here.
+            | Membership will only be open to those who have successful work experience 
+            | within the industry, so please include  a link to your work when you sign up. 
+        div.col-sm-2.col-lg-3
+      div.row.question.center
+        div.col-sm-2.col-lg-3
+        div.col-sm-8.col-lg-6
           h3.question What is this nonsense?
           p.answer This is not nonsense! We believe in the power of the internet to connect 
             | people. With so many artists and content creators representing their 
             | work online, it only seems logical that there should be a place to
             | find real work and real projects. Don't rely on your rep's rolodex 
             | alone. You have the entire world to connect with at your fingertips. 
-        div.col-md-2
+        div.col-sm-2.col-lg-3
       div.row.question.center
-        div.col-md-2
-        div.col-md-8
+        div.col-sm-2.col-lg-3
+        div.col-sm-8.col-lg-6
           h3.question Is this just another talent agency?
           p.answer Nope. This is an online community of talented content creators
             | ultimately representing themselves. Just as you might approach a 
             | a brand directly with an idea, now you have an online platoform 
             | where the opportunities come to you. Frankly, we are surprised this
             | didn't already exist. You can thank us later. 
-        div.col-md-2
+        div.col-sm-2.col-lg-3
       div.row.question.center
-        div.col-md-2
-        div.col-md-8
+        div.col-sm-2.col-lg-3
+        div.col-sm-8.col-lg-6
           h3.question What if I'm signed to a talent agency or production company?
           p.answer If you have a non-exclusive arrangement, no problem. If you 
             | have an exclusive arrange than odds are you're probably fine too, but
@@ -68,10 +89,10 @@ block content
             | Your production company brings in work - you know they'd be happy if 
             | you came to the table with something too. After all, why not? 
             | everybody wins. 
-        div.col-md-2
+        div.col-sm-2.col-lg-3
       div.row.question.center
-        div.col-md-2
-        div.col-md-8
+        div.col-sm-2.col-lg-3
+        div.col-sm-8.col-lg-6
           h3.question Will membership be free? 
           p.answer Not at first. Our ultimate goal is to build a self-sufficient 
             | community of talented creatives. We might have to charge something
@@ -81,5 +102,5 @@ block content
             | content itself. More efficient use of brand's advertising dollars 
             | and more money to the content creators just seems to make sense. 
             | We think we're on to something here.  
-        div.col-md-2
+        div.col-sm-2.col-lg-3
     
