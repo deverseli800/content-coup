@@ -76,6 +76,10 @@ body {
 	width:250px;
 }
 
+.LR-pwd-lr {
+	display:none;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
 	.main-hero {
@@ -92,6 +96,10 @@ body {
 
 	.help-block {
 		width:100%;
+	}
+
+	.LR-pwd-lr {
+		display:block;
 	}
 }
 
