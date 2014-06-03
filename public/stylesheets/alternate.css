@@ -26,7 +26,7 @@ body {
 }
 
 .image-back {
-	background-image:url('/images/commercial-set.jpg');
+	background-image:url('/images/commercial-set-compressed.jpg');
 	width:100%;
 	float:left;
 	height:400px;
