@@ -5,7 +5,9 @@ body {
 	background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%); /* FF3.6+ */
 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1))); /* Chrome,Safari4+ */
 	background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* Chrome10+,Safari5.1+ */
+  overflow-x:hidden;
 }
+
 
 a {
   color: #00B7FF;
@@ -41,6 +43,21 @@ a {
 	margin-left:95%;
 	width:130px;
 }
+
+.more-icon {
+	margin-top:0;
+}
+
+.more-prompt {
+	position: absolute;
+	top:90%;
+	margin:auto;
+	left:0;
+	right:0;
+	width:50%;
+	min-width:400px;
+}
+
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
