@@ -72,6 +72,15 @@ a {
 	text-align:center;
 }
 
+.plain-link {
+	color:white;
+}
+
+.plain-link:hover {
+	text-decoration:none;
+	color:white;
+}
+
 /*my beta list */
 #MyBetaList {
 	background-color:transparent;
